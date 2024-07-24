@@ -209,7 +209,7 @@ Typing features
 
 # TypeIs
 
-Similar to `TypeGaurd`, but narrows out the matched type!
+Similar to `TypeGuard`, but narrows out the matched type!
 
 ```python
 def is_string(x: int | str) -> TypeGuard[str]:
