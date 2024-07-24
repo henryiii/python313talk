@@ -1,6 +1,6 @@
 ---
 title: The two flavors of Python 3.13
-sub_title: PyHEP 2024 • Henry Schreiner
+sub_title: Princeton RSE 2024-7-24 • Henry Schreiner
 author: https://iscinumpy.dev/post/python-313
 options:
   end_slide_shorthand: true
@@ -10,7 +10,7 @@ theme:
     footer:
       style: template
       left: Henry Schreiner
-      center: PyHEP 2024
+      center: Princeton RSE
       right: "{current_slide} / {total_slides}"
 ---
 
@@ -710,7 +710,7 @@ Running with `n=100M`
 Ecosystem
 =========
 
-See https://github.com/Quansight-Labs/free-threaded-compatibility
+See https://py-free-threading.github.io
 
 <!-- column_layout: [3, 4] -->
 
