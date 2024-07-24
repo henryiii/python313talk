@@ -130,7 +130,7 @@ Second half of the talk on this one!
 
 `@warnings.deprecated` • `process_cpu_count()` • `math.fma()` • `Path.from_uri()`
 
-`python -m random` • 19 modules removed • `2to3` removed • Incremental Garbage collector
+`python -m random` • 19 modules removed • `2to3` removed • Incremental garbage collector
 
 iOS support • Perf without frame pointers • 2-year full support window
 
