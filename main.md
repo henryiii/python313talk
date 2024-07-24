@@ -583,9 +583,9 @@ def pi(trials: int) -> float:
 
     return 4.0 * (Ncirc / trials)
 
-def pi_in_threads(trials: int, threads: int) -> float:
-    with ThreadPoolExecutor(max_workers=threads) as executor:
-        return statistics.mean(executor.map(pi, [trials // threads] * threads))
+def pi_in_threads(t: int, w: int) -> float:
+    with ThreadPoolExecutor(max_workers=w) as executor:
+        return statistics.mean(executor.map(pi, [t // w] * w))
 ```
 ---
 
