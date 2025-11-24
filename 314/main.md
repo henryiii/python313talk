@@ -26,9 +26,9 @@ Python release schedule
 
 | **Python** | **Release** | **EoL**  | **SPEC 0**  |
 |------------|-------------|----------|-------------|
-| 3.9        | 2020        | ~~2025~~ | ~~2023~~    |
-| 3.10       | 2021        | 2026     | ~~2024~~    |
-| 3.11       | 2022        | 2027     | ~~2025~~    |
+| 3.9        | 2020        | <span style="color: red">~~2025~~</span> | <span style="color: red">~~2023~~</span>    |
+| 3.10       | 2021        | 2026     | <span style="color: red">~~2024~~</span>    |
+| 3.11       | 2022        | 2027     | <span style="color: red">~~2025~~</span>    |
 | 3.12       | 2023        | 2028     | 2026        |
 | 3.13       | 2024        | 2029     | 2027        |
 | 3.14       | 2025        | 2030     | 2028        |
@@ -234,6 +234,8 @@ See https://iscinumpy.dev/post/python-314/ for more!
 
 
 ---
+
+<!-- jump_to_middle -->
 
 Future: 3.15 and beyond
 =======================
