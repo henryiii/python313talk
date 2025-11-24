@@ -110,6 +110,7 @@ Color everywhere
 * Many CLI's now have color too, including the new `python -m json`
 * `argparse` also gets `suggest_on_error`, too.
 
+---
 
 Remote debugging
 ================
@@ -247,10 +248,10 @@ These features are coming next year and might change before release!
 Future: 3.15 alpha 2
 ====================
 
-* Unicode by default
-* `python -m profiling.sampling`, up to 1,000,000 Hz
-* Error messages suggest similar *nested* attributes
-* Can specify regular expressions for warnings (surround with `/`)
+* ✅ Unicode by default
+* ✅ `python -m profiling.sampling`, up to 1,000,000 Hz
+* ✅ Error messages suggest similar *nested* attributes
+* ✅ Can specify regular expressions for warnings (surround with `/`)
 
 
 ---
@@ -258,11 +259,11 @@ Future: 3.15 alpha 2
 Future: Accepted PEPs
 =====================
 
-* `math.integer` submodule
-* Typed extras on `TypedDict`
-* `PyModExport`: New entryppoint for C extensions
-* `PyBytesWriter`: C API for making `bytes`
-* And: Explicit lazy imports!
+* 🟡 `math.integer` submodule
+* 🟡 Typed extras on `TypedDict`
+* 🟡 `PyModExport`: New entryppoint for C extensions
+* 🟡 `PyBytesWriter`: C API for making `bytes`
+* 🟡 And: Explicit lazy imports!
 
 ```python
 lazy import slow_to_import
@@ -278,9 +279,9 @@ def might_not_be_called():
 Future: Open PEPs
 =================
 
-* `frozendict` (better subinterperter sharing)
-* Stable ABI for free-threading
-* Unpacking in comprehensions
+* ❓ `frozendict` (better subinterperter sharing)
+* ❓ Stable ABI for free-threading
+* ❓ Unpacking in comprehensions
 
 ```python
 a = [1, 2, 3]
