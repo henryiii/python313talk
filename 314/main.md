@@ -86,6 +86,8 @@ What would you use them for?
 * Safe interpolation (databases, html, etc)
 * Some eDSL potential
 
+<!-- pause -->
+
 `tdom` example:
 
 
@@ -120,6 +122,8 @@ You can now debug one Python process from another!
 ```bash
 python -m pdb -p <PID>
 ```
+
+<!-- pause -->
 
 You can also inspect `asyncio` from another process, too!
 
@@ -156,6 +160,8 @@ Some speedups from the Faster CPython team (fired by Microsoft earlier this year
 * Faster module startup time for modules like `subprocess`, `tomllib`, `asyncio`
 * `pdb` now much faster (using `sys.monitoring`)
 * `sys.monitoring` now handles branching, makes libraries like coverage much faster
+
+<!-- pause -->
 
 The *entire test runtime* of `packaging` went from 55 seconds to 35 seconds!
 
@@ -249,10 +255,24 @@ Future: 3.15 alpha 2
 ====================
 
 * ✅ Unicode by default
-* ✅ `python -m profiling.sampling`, up to 1,000,000 Hz
+* ✅ Built-in statistical sampling profiler, up to 1,000,000 Hz
 * ✅ Error messages suggest similar *nested* attributes
 * ✅ Can specify regular expressions for warnings (surround with `/`)
 
+
+<!-- pause -->
+
+```bash
+sudo -E uv run --python 3.15 python -m profiling.sampling <filename>
+```
+
+<!-- pause -->
+
+I already used this to make packaging's `Version` 10% faster!
+
+https://github.com/pypa/packaging/pull/987
+
+(and another 10% in PR now)
 
 ---
 
@@ -264,6 +284,8 @@ Future: Accepted PEPs
 * 🟡 `PyModExport`: New entryppoint for C extensions
 * 🟡 `PyBytesWriter`: C API for making `bytes`
 * 🟡 And: Explicit lazy imports!
+
+<!-- pause -->
 
 ```python
 lazy import slow_to_import
@@ -282,6 +304,8 @@ Future: Open PEPs
 * ❓ `frozendict` (better subinterperter sharing)
 * ❓ Stable ABI for free-threading
 * ❓ Unpacking in comprehensions
+
+<!-- pause -->
 
 ```python
 a = [1, 2, 3]
